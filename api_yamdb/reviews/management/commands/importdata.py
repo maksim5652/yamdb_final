@@ -4,7 +4,6 @@ from datetime import datetime
 from pathlib import Path
 
 from django.core.management.base import BaseCommand
-
 from reviews.models import (Category, Comment, Genre, GenreTitle, Review,
                             Title, User)
 

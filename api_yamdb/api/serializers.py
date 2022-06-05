@@ -2,7 +2,6 @@
 from django.utils.timezone import datetime
 from rest_framework import serializers, validators
 from rest_framework.generics import get_object_or_404
-
 from reviews.models import Category, Comment, Genre, Review, Title, User
 
 
