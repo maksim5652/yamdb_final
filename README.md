@@ -1,6 +1,6 @@
 # api_yamdb final
 
-https://github.com/maksim5652/yamdb_final/workflows/Django-app%20workflow/badge.svg
+![example workflow](https://github.com/maksim5652/yamdb_final/workflows/Django-app%20workflow/badge.svg)
 
 Расширяемая база рецензий и отзывов. Предоставляет доступ через web-интерфейс и c использованием REST API
 
