@@ -74,16 +74,10 @@ docker-compose exec web python manage.py collectstatic --no-input
 ```
 ### Требования:
 
-Python 3.7 или выше
-
-Django framework 2.2.16
-
-Django Rest framework 3.12.4
-
-requests 2.26.0
-
-PyJWT 2.1.0
-
-Django Rest framework simplejwt
-
-django_filter
+1. Python 3.7 или выше
+2. Django framework 2.2.16
+3. Django Rest framework 3.12.4
+4. requests 2.26.0
+5. PyJWT 2.1.0
+6. Django Rest framework simplejwt
+7. django_filter
