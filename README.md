@@ -20,7 +20,7 @@ source venv/bin/activate
 
 python3 -m pip install --upgrade pip setuptools pillow
 
-Установить зависимости из файла requirements.txt:
+3. Установить зависимости из файла requirements.txt:
 
 pip install -r requirements.txt
 
