@@ -30,7 +30,7 @@ python3 manage.py makemigrations
 
 python3 manage.py migrate
 
-5. Запустить проект:
+Запустить проект:
 
 python3 manage.py runserver
 
