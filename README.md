@@ -24,7 +24,6 @@ python3 -m pip install --upgrade pip setuptools pillow
 
 pip install -r requirements.txt
 
-
 Подготовить и выполнить миграции:
 
 python3 manage.py makemigrations
