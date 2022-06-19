@@ -12,7 +12,7 @@ git clone https://github.com/maksim5652/api_yamdb.git
 
 cd api_yamdb
 
-Cоздать и активировать виртуальное окружение:
+2. Cоздать и активировать виртуальное окружение:
 
 python3 -m venv venv
 
