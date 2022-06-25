@@ -63,3 +63,4 @@ docker-compose exec web python manage.py collectstatic --no-input
 
 ### Ссылка на проект:
 http://84.201.139.141/admin/
+http://84.201.139.141/redoc/
