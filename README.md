@@ -46,10 +46,10 @@ DB_PORT=5432 # порт для подключения к БД
 ```
 ### Описание команд для запуска приложения в контейнерах
 ```
-docker-compose up -d --build
-```
-```
 Выполняем миграции, создаем суперпользователя, подключаем статику:
+```
+```
+docker-compose up -d --build
 docker-compose exec web python manage.py migrate
 docker-compose exec web python manage.py createsuperuser
 docker-compose exec web python manage.py collectstatic --no-input 
@@ -63,3 +63,6 @@ docker-compose exec web python manage.py collectstatic --no-input
 5. PyJWT 2.1.0
 6. Django Rest framework simplejwt
 7. django_filter
+
+### Ссылка на проект:
+http://84.201.139.141/admin/
