@@ -34,12 +34,14 @@ python3 manage.py runserver
 ### Шаблон наполенение env-файла:
 
 ```
-DB_ENGINE=django.db.backends.postgresql # указываем, что работаем с postgresql
-DB_NAME=postgres # имя базы данных
-POSTGRES_USER=postgres # логин для подключения к базе данных
-POSTGRES_PASSWORD=postgres # пароль для подключения к БД (установите свой)
-DB_HOST=db # название сервиса (контейнера)
-DB_PORT=5432 # порт для подключения к БД 
+DB_ENGINE=django.db.backends.postgresql
+DB_NAME=postgres
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=maksim5652
+DB_HOST=db
+DB_PORT=5432
+SECRET_KEY=p&l%385148kslhtyn^##a1)ilz@4zqj=rq&agdol^##zgl9(vs
+ALLOWED_HOSTS=84.201.139.141,127.0.0.1,localhost
 ```
 ### Описание команд для запуска приложения в контейнерах
 ```
