@@ -15,9 +15,7 @@ cd api_yamdb
 Cоздать и активировать виртуальное окружение:
 
 python3 -m venv venv
-
 source venv/bin/activate
-
 python3 -m pip install --upgrade pip setuptools pillow
 
 Установить зависимости из файла requirements.txt:
@@ -27,7 +25,6 @@ pip install -r requirements.txt
 Подготовить и выполнить миграции:
 
 python3 manage.py makemigrations
-
 python3 manage.py migrate
 
 Запустить проект:

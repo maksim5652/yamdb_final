@@ -3,7 +3,7 @@ name: Django-app workflow
 on: [push]
 
 jobs:
-    # Запустить тестирование приложения
+
   tests:
     runs-on: ubuntu-latest
     steps:
@@ -57,7 +57,7 @@ jobs:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USER }}
         key: ${{ secrets.SSH_KEY }}
-        passphrase: ${{ secrets.PASSPHRASE }} # Если ваш ssh-ключ защищён фразой-паролем
+        passphrase: ${{ secrets.PASSPHRASE }}
         script: |
           # Выполняет pull образа с DockerHub
           sudo docker pull <имя-пользователя>/<имя-репозитория>
